@@ -39,57 +39,57 @@ class BaseChatPage(BasePage):
                   # 撤回消息时的弹窗
                   '我知道了': (MobileBy.XPATH, "//*[contains(@text, '知道了')]"),
                   # 用户须知
-                  '用户须知': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_title'),
-                  '我已阅读': (MobileBy.ID, 'com.chinasofti.rcs:id/btn_check'),
-                  '确定': (MobileBy.ID, 'com.chinasofti.rcs:id/dialog_btn_ok'),
+                  '用户须知': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_title'),
+                  '我已阅读': (MobileBy.ID, 'com.cmic.junyuntong:id/btn_check'),
+                  '确定': (MobileBy.ID, 'com.cmic.junyuntong:id/dialog_btn_ok'),
                   # 在聊天会话页面点击不可阅读文件时的弹窗
                   '打开方式': (MobileBy.XPATH, "//*[contains(@text,'方式')] | //*[contains(@text,'打开')]"),
                   '取消': (MobileBy.ID, 'android:id/button2'),
                   # 位置信息
-                  '深圳市龙岗区交叉口': (MobileBy.ID, 'com.chinasofti.rcs:id/lloc_famous_address_text'),
+                  '深圳市龙岗区交叉口': (MobileBy.ID, 'com.cmic.junyuntong:id/lloc_famous_address_text'),
                   # 消息图片
-                  '消息图片': (MobileBy.ID, 'com.chinasofti.rcs:id/imageview_msg_image'),
+                  '消息图片': (MobileBy.ID, 'com.cmic.junyuntong:id/imageview_msg_image'),
                   # 消息视频
-                  '消息视频': (MobileBy.ID, 'com.chinasofti.rcs:id/textview_video_time'),
-                  '视频播放按钮': (MobileBy.ID, 'com.chinasofti.rcs:id/video_play'),
-                  '视频关闭按钮': (MobileBy.ID, 'com.chinasofti.rcs:id/iv_close'),
+                  '消息视频': (MobileBy.ID, 'com.cmic.junyuntong:id/textview_video_time'),
+                  '视频播放按钮': (MobileBy.ID, 'com.cmic.junyuntong:id/video_play'),
+                  '视频关闭按钮': (MobileBy.ID, 'com.cmic.junyuntong:id/iv_close'),
                   # 打开位置页面元素
-                  "导航按钮": (MobileBy.ID, 'com.chinasofti.rcs:id/location_nativ_btn'),
+                  "导航按钮": (MobileBy.ID, 'com.cmic.junyuntong:id/location_nativ_btn'),
                   # 打开gif图片后元素
-                  "gif图片元素列表": (MobileBy.ID, 'com.chinasofti.rcs:id/stickers_container'),
-                  "gif群聊会话中的元素": (MobileBy.ID, 'com.chinasofti.rcs:id/layout_loading'),
-                  "gif趣图搜索框": (MobileBy.ID, 'com.chinasofti.rcs:id/et_message'),
-                  "关闭gif趣图聊天框": (MobileBy.ID, 'com.chinasofti.rcs:id/iv_cancel_gif'),
+                  "gif图片元素列表": (MobileBy.ID, 'com.cmic.junyuntong:id/stickers_container'),
+                  "gif群聊会话中的元素": (MobileBy.ID, 'com.cmic.junyuntong:id/layout_loading'),
+                  "gif趣图搜索框": (MobileBy.ID, 'com.cmic.junyuntong:id/et_message'),
+                  "关闭gif趣图聊天框": (MobileBy.ID, 'com.cmic.junyuntong:id/iv_cancel_gif'),
                   # 消息发送失败 重发弹窗
-                  "是否重发该条信息": (MobileBy.ID, 'com.chinasofti.rcs:id/dialog_message'),
+                  "是否重发该条信息": (MobileBy.ID, 'com.cmic.junyuntong:id/dialog_message'),
                   "确定重发": (MobileBy.XPATH, '//*[@text="确定"]'),
                   "取消重发": (MobileBy.XPATH, '//*[@text="取消"]'),
-                  "发送失败icon": (MobileBy.ID, 'com.chinasofti.rcs:id/imageview_msg_send_failed'),
+                  "发送失败icon": (MobileBy.ID, 'com.cmic.junyuntong:id/imageview_msg_send_failed'),
                   # 消息文件
-                  "文件名": (MobileBy.ID, 'com.chinasofti.rcs:id/textview_file_name'),
-                  "文件大小": (MobileBy.ID, 'com.chinasofti.rcs:id/textview_file_size'),
-                  '消息文本内容': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_message'),
+                  "文件名": (MobileBy.ID, 'com.cmic.junyuntong:id/textview_file_name'),
+                  "文件大小": (MobileBy.ID, 'com.cmic.junyuntong:id/textview_file_size'),
+                  '消息文本内容': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_message'),
                   "粘贴": (MobileBy.XPATH, '//*[@text="粘贴"]'),
-                  '打开表情': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_expression'),
-                  '关闭表情': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_expression'),
-                  '表情id': (MobileBy.ID, 'com.chinasofti.rcs:id/iv_expression_image'),
-                  '表情集选择栏': (MobileBy.ID, 'com.chinasofti.rcs:id/lltButton'),
-                  '表情集选择栏btn1': (MobileBy.ID, 'com.chinasofti.rcs:id/first_emoji'),
-                  '表情集选择栏btn2': (MobileBy.ID, 'com.chinasofti.rcs:id/sec_emoji'),
-                  '翻页小圆点': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/pcv_expression"]/android.widget.ImageView'),
-                  '删除表情按钮': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/iv_expression_image" and contains(@text,"删除")]'),
-                  '短信编辑': (MobileBy.ID, 'com.chinasofti.rcs:id/et_sms'),
-                  '发送': (MobileBy.ID, 'com.chinasofti.rcs:id/btn_ok'),
-                  '退出短信': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_exitsms'),
-                  '发送短信': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_sms_send'),
+                  '打开表情': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_expression'),
+                  '关闭表情': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_expression_keyboard'),
+                  '表情id': (MobileBy.ID, 'com.cmic.junyuntong:id/iv_expression_image'),
+                  '表情集选择栏': (MobileBy.ID, 'com.cmic.junyuntong:id/lltButton'),
+                  '表情集选择栏btn1': (MobileBy.ID, 'com.cmic.junyuntong:id/first_emoji'),
+                  '表情集选择栏btn2': (MobileBy.ID, 'com.cmic.junyuntong:id/sec_emoji'),
+                  '翻页小圆点': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/pcv_expression"]/android.widget.ImageView'),
+                  '删除表情按钮': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/iv_expression_image" and contains(@text,"删除")]'),
+                  '短信编辑': (MobileBy.ID, 'com.cmic.junyuntong:id/et_sms'),
+                  '发送': (MobileBy.ID, 'com.cmic.junyuntong:id/btn_ok'),
+                  '退出短信': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_exitsms'),
+                  '发送短信': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_sms_send'),
                   #预览文件页面
-                  '预览文件标题': (MobileBy.ID, 'com.chinasofti.rcs:id/title'),
+                  '预览文件标题': (MobileBy.ID, 'com.cmic.junyuntong:id/title'),
                   '预览文件-更多':(MobileBy.XPATH,'/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.FrameLayout[2]/android.widget.ImageView'),
                   '预览文件-转发': (MobileBy.XPATH, "//*[contains(@text, '转发')]"),
                   '预览文件-收藏': (MobileBy.XPATH, "//*[contains(@text, '收藏')]"),
                   '其他应用打开': (MobileBy.XPATH, "//*[contains(@text, '其他应用打开')]"),
-                  "未读消息气泡": (MobileBy.ID, "com.chinasofti.rcs:id/rnMessageBadge"),
-                  '视频消息': (MobileBy.ID, 'com.chinasofti.rcs:id/video_thumb')
+                  "未读消息气泡": (MobileBy.ID, "com.cmic.junyuntong:id/rnMessageBadge"),
+                  '视频消息': (MobileBy.ID, 'com.cmic.junyuntong:id/video_thumb')
                   }
 
     @TestLogger.log('文件是否存在')
@@ -128,7 +128,7 @@ class BaseChatPage(BasePage):
             self.wait_until(
                 timeout=timeout,
                 auto_accept_permission_alert=auto_accept_alerts,
-                condition=lambda d: self._is_element_present((MobileBy.ID, 'com.chinasofti.rcs:id/location_title'))
+                condition=lambda d: self._is_element_present((MobileBy.ID, 'com.cmic.junyuntong:id/location_title'))
             )
         except:
             message = "页面在{}s内，没有加载成功".format(str(timeout))
@@ -315,7 +315,7 @@ class BaseChatPage(BasePage):
     @TestLogger.log()
     def get_name_card(self):
         """获取个人卡名信息"""
-        el = self.get_element([MobileBy.ID, 'com.chinasofti.rcs:id/tv_card_name'])
+        el = self.get_element([MobileBy.ID, 'com.cmic.junyuntong:id/tv_card_name'])
         return el.text
 
     @TestLogger.log()
@@ -393,7 +393,7 @@ class BaseChatPage(BasePage):
             self.wait_until(
                 timeout=timeout,
                 auto_accept_permission_alert=auto_accept_alerts,
-                condition=lambda d: self._is_element_present((MobileBy.ID, 'com.chinasofti.rcs:id/menu'))
+                condition=lambda d: self._is_element_present((MobileBy.ID, 'com.cmic.junyuntong:id/menu'))
             )
         except:
             message = "页面在{}s内，没有加载成功".format(str(timeout))
@@ -404,7 +404,7 @@ class BaseChatPage(BasePage):
     def click_back_in_open_file_page(self):
         """在打开文件页面点击返回"""
         try:
-            self.click_element((MobileBy.ID, "com.chinasofti.rcs:id/back"))
+            self.click_element((MobileBy.ID, "com.cmic.junyuntong:id/back"))
         except:
             self.click_element(self.__class__.__locators['返回'])
 
@@ -702,7 +702,7 @@ class BaseChatPage(BasePage):
     def get_width_of_msg_of_text(self):
         """获取最近一条聊天记录文本信息框的大小"""
         time.sleep(1)
-        els=self.get_element((MobileBy.ID,'com.chinasofti.rcs:id/tv_message'))
+        els=self.get_element((MobileBy.ID,'com.cmic.junyuntong:id/tv_message'))
         rect=els.rect
         return rect["width"]
 
@@ -710,7 +710,7 @@ class BaseChatPage(BasePage):
     def get_width_of_last_msg_of_text(self):
         """获取最近一条聊天记录文本信息框的大小"""
         time.sleep(1)
-        el = self.get_elements((MobileBy.ID,'com.chinasofti.rcs:id/tv_message'))[-1]
+        el = self.get_elements((MobileBy.ID,'com.cmic.junyuntong:id/tv_message'))[-1]
         rect = el.rect
         return rect["width"]
 

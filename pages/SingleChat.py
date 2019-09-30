@@ -13,62 +13,62 @@ class SingleChatPage(BaseChatPage):
     ACTIVITY = 'com.cmcc.cmrcs.android.ui.activities.MessageDetailActivity'
 
     __locators = {'': (MobileBy.ID, ''),
-                  'com.chinasofti.rcs:id/action_bar_root': (MobileBy.ID, 'com.chinasofti.rcs:id/action_bar_root'),
+                  'com.cmic.junyuntong:id/action_bar_root': (MobileBy.ID, 'com.cmic.junyuntong:id/action_bar_root'),
                   'android:id/content': (MobileBy.ID, 'android:id/content'),
-                  'com.chinasofti.rcs:id/pop_10g_window_drop_view': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/pop_10g_window_drop_view'),
-                  'com.chinasofti.rcs:id/id_toolbar': (MobileBy.ID, 'com.chinasofti.rcs:id/id_toolbar'),
-                  'com.chinasofti.rcs:id/back': (MobileBy.ID, 'com.chinasofti.rcs:id/back'),
-                  '返回': (MobileBy.ID, 'com.chinasofti.rcs:id/back_arrow'),
-                  'axzq': (MobileBy.ID, 'com.chinasofti.rcs:id/title'),
-                  '打电话图标': (MobileBy.ID, 'com.chinasofti.rcs:id/action_call'),
-                  '设置': (MobileBy.ID, 'com.chinasofti.rcs:id/action_setting'),
-                  'com.chinasofti.rcs:id/view_line': (MobileBy.ID, 'com.chinasofti.rcs:id/view_line'),
-                  'com.chinasofti.rcs:id/contentFrame': (MobileBy.ID, 'com.chinasofti.rcs:id/contentFrame'),
-                  'com.chinasofti.rcs:id/message_editor_layout': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/message_editor_layout'),
-                  'com.chinasofti.rcs:id/rv_message_chat': (MobileBy.ID, 'com.chinasofti.rcs:id/rv_message_chat'),
-                  'com.chinasofti.rcs:id/linearLayout': (MobileBy.ID, 'com.chinasofti.rcs:id/linearLayout'),
-                  '10:57': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_time'),
-                  'com.chinasofti.rcs:id/ll_msg': (MobileBy.ID, 'com.chinasofti.rcs:id/ll_msg'),
-                  'com.chinasofti.rcs:id/iv_file_icon': (MobileBy.ID, 'com.chinasofti.rcs:id/iv_file_icon'),
-                  '67.0KB': (MobileBy.ID, 'com.chinasofti.rcs:id/textview_file_size'),
-                  '和飞信测试用例.xlsx': (MobileBy.ID, 'com.chinasofti.rcs:id/textview_file_name'),
-                  'com.chinasofti.rcs:id/img_message_down_file': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/img_message_down_file'),
-                  '对方离线，已提醒': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_has_read'),
-                  'com.chinasofti.rcs:id/iv_send_status': (MobileBy.ID, 'com.chinasofti.rcs:id/iv_send_status'),
-                  'com.chinasofti.rcs:id/imgae_fl': (MobileBy.ID, 'com.chinasofti.rcs:id/imgae_fl'),
-                  'com.chinasofti.rcs:id/layout_loading': (MobileBy.ID, 'com.chinasofti.rcs:id/layout_loading'),
-                  'com.chinasofti.rcs:id/imageview_msg_image': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/imageview_msg_image'),
-                  'hello': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_message'),
-                  'com.chinasofti.rcs:id/svd_head': (MobileBy.ID, 'com.chinasofti.rcs:id/svd_head'),
-                  '选择短信': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_sms_btn'),
-                  '语音消息体': (MobileBy.ID, 'com.chinasofti.rcs:id/img_audio_play_icon'),
-                  '消息图片': (MobileBy.ID, 'com.chinasofti.rcs:id/imageview_msg_image'),
-                  '消息视频': (MobileBy.ID, 'com.chinasofti.rcs:id/textview_video_time'),
-                  '选择照片': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_pic'),
-                  '短信发送按钮': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_sms_send'),
-                  '短信输入框': (MobileBy.ID, 'com.chinasofti.rcs:id/et_sms'),
+                  'com.cmic.junyuntong:id/pop_10g_window_drop_view': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/pop_10g_window_drop_view'),
+                  'com.cmic.junyuntong:id/id_toolbar': (MobileBy.ID, 'com.cmic.junyuntong:id/id_toolbar'),
+                  'com.cmic.junyuntong:id/back': (MobileBy.ID, 'com.cmic.junyuntong:id/back'),
+                  '返回': (MobileBy.ID, 'com.cmic.junyuntong:id/back_arrow'),
+                  'axzq': (MobileBy.ID, 'com.cmic.junyuntong:id/title'),
+                  '打电话图标': (MobileBy.ID, 'com.cmic.junyuntong:id/action_call'),
+                  '设置': (MobileBy.ID, 'com.cmic.junyuntong:id/action_setting'),
+                  'com.cmic.junyuntong:id/view_line': (MobileBy.ID, 'com.cmic.junyuntong:id/view_line'),
+                  'com.cmic.junyuntong:id/contentFrame': (MobileBy.ID, 'com.cmic.junyuntong:id/contentFrame'),
+                  'com.cmic.junyuntong:id/message_editor_layout': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/message_editor_layout'),
+                  'com.cmic.junyuntong:id/rv_message_chat': (MobileBy.ID, 'com.cmic.junyuntong:id/rv_message_chat'),
+                  'com.cmic.junyuntong:id/linearLayout': (MobileBy.ID, 'com.cmic.junyuntong:id/linearLayout'),
+                  '10:57': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_time'),
+                  'com.cmic.junyuntong:id/ll_msg': (MobileBy.ID, 'com.cmic.junyuntong:id/ll_msg'),
+                  'com.cmic.junyuntong:id/iv_file_icon': (MobileBy.ID, 'com.cmic.junyuntong:id/iv_file_icon'),
+                  '67.0KB': (MobileBy.ID, 'com.cmic.junyuntong:id/textview_file_size'),
+                  '和飞信测试用例.xlsx': (MobileBy.ID, 'com.cmic.junyuntong:id/textview_file_name'),
+                  'com.cmic.junyuntong:id/img_message_down_file': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/img_message_down_file'),
+                  '对方离线，已提醒': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_has_read'),
+                  'com.cmic.junyuntong:id/iv_send_status': (MobileBy.ID, 'com.cmic.junyuntong:id/iv_send_status'),
+                  'com.cmic.junyuntong:id/imgae_fl': (MobileBy.ID, 'com.cmic.junyuntong:id/imgae_fl'),
+                  'com.cmic.junyuntong:id/layout_loading': (MobileBy.ID, 'com.cmic.junyuntong:id/layout_loading'),
+                  'com.cmic.junyuntong:id/imageview_msg_image': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/imageview_msg_image'),
+                  'hello': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_message'),
+                  'com.cmic.junyuntong:id/svd_head': (MobileBy.ID, 'com.cmic.junyuntong:id/svd_head'),
+                  '选择短信': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_sms_btn'),
+                  '语音消息体': (MobileBy.ID, 'com.cmic.junyuntong:id/img_audio_play_icon'),
+                  '消息图片': (MobileBy.ID, 'com.cmic.junyuntong:id/imageview_msg_image'),
+                  '消息视频': (MobileBy.ID, 'com.cmic.junyuntong:id/textview_video_time'),
+                  '选择照片': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_pic'),
+                  '短信发送按钮': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_sms_send'),
+                  '短信输入框': (MobileBy.ID, 'com.cmic.junyuntong:id/et_sms'),
                   '短信资费提醒': (MobileBy.XPATH, '//*[@text="资费提醒"]'),
-                  "文本输入框": (MobileBy.ID, "com.chinasofti.rcs:id/et_message"),
-                  "文本发送按钮": (MobileBy.ID, "com.chinasofti.rcs:id/ib_send"),
-                  "语音发送按钮": (MobileBy.ID, "com.chinasofti.rcs:id/ib_audio"),
-                  "消息免打扰图标": (MobileBy.ID, "com.chinasofti.rcs:id/iv_slient"),
-                  '重发按钮': (MobileBy.ID, 'com.chinasofti.rcs:id/imageview_msg_send_failed'),
-                  '确定': (MobileBy.ID, 'com.chinasofti.rcs:id/btn_ok'),
-                  '取消': (MobileBy.ID, 'com.chinasofti.rcs:id/btn_cancel'),
-                  '文件名称': (MobileBy.ID, 'com.chinasofti.rcs:id/textview_file_name'),
+                  "文本输入框": (MobileBy.ID, "com.cmic.junyuntong:id/et_message"),
+                  "文本发送按钮": (MobileBy.ID, "com.cmic.junyuntong:id/ib_send"),
+                  "语音发送按钮": (MobileBy.ID, "com.cmic.junyuntong:id/ib_audio"),
+                  "消息免打扰图标": (MobileBy.ID, "com.cmic.junyuntong:id/iv_slient"),
+                  '重发按钮': (MobileBy.ID, 'com.cmic.junyuntong:id/imageview_msg_send_failed'),
+                  '确定': (MobileBy.ID, 'com.cmic.junyuntong:id/btn_ok'),
+                  '取消': (MobileBy.ID, 'com.cmic.junyuntong:id/btn_cancel'),
+                  '文件名称': (MobileBy.ID, 'com.cmic.junyuntong:id/textview_file_name'),
                   '和飞信电话（免费）': (MobileBy.XPATH, '//*[@text="和飞信电话（免费）"]'),
                   '飞信电话（免费）': (MobileBy.XPATH, '//*[@text="飞信电话（免费）"]'),
-                  '名片消息名称': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_card_name'),
-                  '更多': (MobileBy.ID, 'com.chinasofti.rcs:id/ib_more'),
-                  '选择名片': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/iocn_tv" and @text="名片"]'),
-                  '视频播放': (MobileBy.ID, 'com.chinasofti.rcs:id/video_play'),
-                  '关闭视频': (MobileBy.ID, 'com.chinasofti.rcs:id/iv_close'),
-                  '消息文件': (MobileBy.ID, 'com.chinasofti.rcs:id/ll_msg'),
-                  '文件下载图标': (MobileBy.ID, 'com.chinasofti.rcs:id/img_message_down_file'),
+                  '名片消息名称': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_card_name'),
+                  '更多': (MobileBy.ID, 'com.cmic.junyuntong:id/ib_more'),
+                  '选择名片': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/iocn_tv" and @text="名片"]'),
+                  '视频播放': (MobileBy.ID, 'com.cmic.junyuntong:id/video_play'),
+                  '关闭视频': (MobileBy.ID, 'com.cmic.junyuntong:id/iv_close'),
+                  '消息文件': (MobileBy.ID, 'com.cmic.junyuntong:id/ll_msg'),
+                  '文件下载图标': (MobileBy.ID, 'com.cmic.junyuntong:id/img_message_down_file'),
                   '收藏': (MobileBy.XPATH, "//*[contains(@text, '收藏')]"),
                   '转发': (MobileBy.XPATH, "//*[contains(@text, '转发')]"),
                   '删除': (MobileBy.XPATH, "//*[contains(@text, '删除')]"),
@@ -76,23 +76,23 @@ class SingleChatPage(BaseChatPage):
                   '多选': (MobileBy.XPATH, "//*[contains(@text, '多选')]"),
                   '复制': (MobileBy.XPATH, "//*[contains(@text, '复制')]"),
                   '编辑': (MobileBy.XPATH, "//*[contains(@text, '编辑')]"),
-                  '消息位置': (MobileBy.ID, 'com.chinasofti.rcs:id/lloc_famous_address_text'),
-                  '文件': ('id', 'com.chinasofti.rcs:id/ib_file'),
-                  '下拉菜单箭头': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/drop_down_image"]'),
-                  '下拉菜单选项': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/albumTitle"]'),
-                  '列表': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/recyclerView_gallery"]'),
-                  '列表项': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/recyclerView_gallery"]/*['
-                                          '@resource-id="com.chinasofti.rcs:id/rl_img"]'),
-                  '选择': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/iv_select"]'),
-                  '原图': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/cb_original_photo"]'),
-                  '预览': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/tv_preview"]'),
-                  '发送失败标识': (MobileBy.ID, 'com.chinasofti.rcs:id/imageview_msg_send_failed'),
+                  '消息位置': (MobileBy.ID, 'com.cmic.junyuntong:id/lloc_famous_address_text'),
+                  '文件': ('id', 'com.cmic.junyuntong:id/ib_file'),
+                  '下拉菜单箭头': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/drop_down_image"]'),
+                  '下拉菜单选项': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/albumTitle"]'),
+                  '列表': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/recyclerView_gallery"]'),
+                  '列表项': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/recyclerView_gallery"]/*['
+                                          '@resource-id="com.cmic.junyuntong:id/rl_img"]'),
+                  '选择': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/iv_select"]'),
+                  '原图': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/cb_original_photo"]'),
+                  '预览': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_preview"]'),
+                  '发送失败标识': (MobileBy.ID, 'com.cmic.junyuntong:id/imageview_msg_send_failed'),
                   '保存图片': (MobileBy.XPATH, "//*[contains(@text, '保存图片')]"),
-                  '发送': (MobileBy.ID, "com.chinasofti.rcs:id/button_send"),
-                  '文件列表': (MobileBy.ID, "com.chinasofti.rcs:id/lv_choose"),
-                  '文件项': (MobileBy.ID, "com.chinasofti.rcs:id/rl_sd_file"),
-                  '文件名称项': (MobileBy.ID, "com.chinasofti.rcs:id/tv_file_name"),
-                  '关闭表情': (MobileBy.ID, "com.chinasofti.rcs:id/ib_expression"),
+                  '发送': (MobileBy.ID, "com.cmic.junyuntong:id/button_send"),
+                  '文件列表': (MobileBy.ID, "com.cmic.junyuntong:id/lv_choose"),
+                  '文件项': (MobileBy.ID, "com.cmic.junyuntong:id/rl_sd_file"),
+                  '文件名称项': (MobileBy.ID, "com.cmic.junyuntong:id/tv_file_name"),
+                  '关闭表情': (MobileBy.ID, "com.cmic.junyuntong:id/ib_expression_keyboard"),
                   }
 
     @TestLogger.log()
@@ -102,7 +102,7 @@ class SingleChatPage(BaseChatPage):
             self.wait_until(
                 timeout=timeout,
                 auto_accept_permission_alert=auto_accept_alerts,
-                condition=lambda d: self._is_element_present(self.__class__.__locators["打电话图标"])
+                condition=lambda d: self._is_element_present(self.__class__.__locators["设置"])
             )
         except:
             message = "页面在{}s内，没有加载成功".format(str(timeout))
@@ -225,7 +225,7 @@ class SingleChatPage(BaseChatPage):
         """是否存在指定类型文件"""
         locator = (
             MobileBy.XPATH,
-            '//*[@resource-id="com.chinasofti.rcs:id/textview_file_name" and contains(@text,"%s")]' % file_type)
+            '//*[@resource-id="com.cmic.junyuntong:id/textview_file_name" and contains(@text,"%s")]' % file_type)
         return self._is_element_present(locator)
 
     @TestLogger.log()
@@ -283,7 +283,7 @@ class SingleChatPage(BaseChatPage):
 
     @TestLogger.log("确认短信弹框页面是否有两个按键")
     def check_cmcc_msg_two_button(self):
-        btn_list = [('id','com.chinasofti.rcs:id/sure_btn'),('id','com.chinasofti.rcs:id/cancle_btn')]
+        btn_list = [('id','com.cmic.junyuntong:id/sure_btn'),('id','com.cmic.junyuntong:id/cancle_btn')]
         for btn in btn_list:
             if not self._is_enabled(btn):
                 return False
@@ -341,7 +341,7 @@ class SingleChatPage(BaseChatPage):
     @TestLogger.log()
     def click_back_tubiao(self):
         """点击返回图标"""
-        self.click_element(self.__class__.__locators["com.chinasofti.rcs:id/back"])
+        self.click_element(self.__class__.__locators["com.cmic.junyuntong:id/back"])
 
     @TestLogger.log()
     def click_element_(self, text):
@@ -392,7 +392,7 @@ class SingleChatPage(BaseChatPage):
     @TestLogger.log()
     def press_message_to_do(self, text):
         """长按指定信息进行操作"""
-        el = self.get_element((MobileBy.ID, 'com.chinasofti.rcs:id/lloc_famous_address_text'))
+        el = self.get_element((MobileBy.ID, 'com.cmic.junyuntong:id/lloc_famous_address_text'))
         self.press(el)
         self.click_element(self.__class__.__locators[text])
 
@@ -411,21 +411,21 @@ class SingleChatPage(BaseChatPage):
     @TestLogger.log()
     def press_last_file_to_do(self, text):
         """长按最后一个文件进行操作"""
-        el = self.get_elements(('id', 'com.chinasofti.rcs:id/ll_msg'))[-1]
+        el = self.get_elements(('id', 'com.cmic.junyuntong:id/ll_msg'))[-1]
         self.press(el)
         self.click_element(self.__class__.__locators[text])
 
     @TestLogger.log()
     def press_last_picture_to_do(self, text):
         """长按最后一个图片文件进行操作"""
-        el = self.get_elements(('id', 'com.chinasofti.rcs:id/layout_loading'))[-1]
+        el = self.get_elements(('id', 'com.cmic.junyuntong:id/layout_loading'))[-1]
         self.press(el)
         self.click_element(self.__class__.__locators[text])
 
     @TestLogger.log()
     def press_last_video_to_do(self, text):
         """长按最后一个视频文件进行操作"""
-        el = self.get_elements(('id', 'com.chinasofti.rcs:id/video_thumb'))[-1]
+        el = self.get_elements(('id', 'com.cmic.junyuntong:id/video_thumb'))[-1]
         self.press(el)
         self.click_element(self.__class__.__locators[text])
 
@@ -434,9 +434,9 @@ class SingleChatPage(BaseChatPage):
         import re
         if not self.get_elements(self.__locators['下拉菜单选项']):
             self.click_element(self.__locators['下拉菜单箭头'])
-        menu_list = ['xpath', '//*[@resource-id="com.chinasofti.rcs:id/list_select"]']
+        menu_list = ['xpath', '//*[@resource-id="com.cmic.junyuntong:id/list_select"]']
         self.swipe_by_direction(menu_list, 'down', 600)
-        menu_item = ['xpath', '//*[@resource-id="com.chinasofti.rcs:id/list_select"]/*']
+        menu_item = ['xpath', '//*[@resource-id="com.cmic.junyuntong:id/list_select"]/*']
         for i in self.mobile.list_iterator(menu_list, menu_item):
             del i
             menus = self.get_elements(self.__locators['下拉菜单选项'])
@@ -537,19 +537,19 @@ class SingleChatPage(BaseChatPage):
     @TestLogger.log()
     def press_last_message_to_do(self, text):
         """长按最后一个文本消息进行操作"""
-        el = self.get_elements(('id', 'com.chinasofti.rcs:id/tv_message'))[-1]
+        el = self.get_elements(('id', 'com.cmic.junyuntong:id/tv_message'))[-1]
         self.press(el)
         self.click_element(self.__class__.__locators[text])
 
-        # (//*[contains(@resource-id,"com.chinasofti.rcs:id/multi_check")])[4]
+        # (//*[contains(@resource-id,"com.cmic.junyuntong:id/multi_check")])[4]
 
     @TestLogger.log()
     def click_select_many_messages(self):
         """点击选择多条消息"""
         time.sleep(1)
-        self.click_element((MobileBy.XPATH, '(//*[contains(@resource-id,"com.chinasofti.rcs:id/multi_check")])[1]'))
+        self.click_element((MobileBy.XPATH, '(//*[contains(@resource-id,"com.cmic.junyuntong:id/multi_check")])[1]'))
         time.sleep(1)
-        self.click_element((MobileBy.XPATH, '(//*[contains(@resource-id,"com.chinasofti.rcs:id/multi_check")])[2]'))
+        self.click_element((MobileBy.XPATH, '(//*[contains(@resource-id,"com.cmic.junyuntong:id/multi_check")])[2]'))
         time.sleep(1)
 
     @TestLogger.log()
@@ -557,34 +557,34 @@ class SingleChatPage(BaseChatPage):
         """单聊发送文件"""
         chatWindowPage = ChatWindowPage()
         for i in range(1, 10):
-            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.chinasofti.rcs:id/lv_choose'), 'down', 600)
+            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.cmic.junyuntong:id/lv_choose'), 'down', 600)
         elements = chatWindowPage.get_elements(
-            (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/tv_file_name" and @text="%s"]' % path))
+            (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_file_name" and @text="%s"]' % path))
         # 文件系统找文件目录
         while len(elements) == 0:
-            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.chinasofti.rcs:id/lv_choose'), 'up', 600)
+            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.cmic.junyuntong:id/lv_choose'), 'up', 600)
             time.sleep(1)
             elements = chatWindowPage.get_elements(
-                (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/tv_file_name" and @text="%s"]' % path))
+                (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_file_name" and @text="%s"]' % path))
         chatWindowPage.click_element((MobileBy.XPATH,
-                                      '//*[@resource-id="com.chinasofti.rcs:id/tv_file_name" and @text="%s"]' % path))
+                                      '//*[@resource-id="com.cmic.junyuntong:id/tv_file_name" and @text="%s"]' % path))
         # 文件系统找文件
         time.sleep(2)
         for i in range(1, 10):
-            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.chinasofti.rcs:id/lv_choose'), 'down', 600)
+            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.cmic.junyuntong:id/lv_choose'), 'down', 600)
         elements = chatWindowPage.get_elements(
-            (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/tv_file_name" and @text="%s"]' % file_name))
+            (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_file_name" and @text="%s"]' % file_name))
 
         while len(elements) == 0:
-            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.chinasofti.rcs:id/lv_choose'), 'up')
+            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.cmic.junyuntong:id/lv_choose'), 'up')
             time.sleep(1)
             elements = chatWindowPage.get_elements(
-                (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/tv_file_name" and @text="%s"]' % file_name))
+                (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_file_name" and @text="%s"]' % file_name))
         chatWindowPage.click_element((MobileBy.XPATH,
-                                      '//*[@resource-id="com.chinasofti.rcs:id/tv_file_name" and @text="%s"]' % file_name))
+                                      '//*[@resource-id="com.cmic.junyuntong:id/tv_file_name" and @text="%s"]' % file_name))
         # 发送
         chatWindowPage.click_element((MobileBy.XPATH,
-                                      '//*[@resource-id="com.chinasofti.rcs:id/button_send" and @text="发送"]'))
+                                      '//*[@resource-id="com.cmic.junyuntong:id/button_send" and @text="发送"]'))
         time.sleep(1)
 
     @TestLogger.log()
@@ -593,19 +593,19 @@ class SingleChatPage(BaseChatPage):
         chatWindowPage = ChatWindowPage()
         file_elements = chatWindowPage.get_elements(
             (MobileBy.XPATH,
-             '//*[@resource-id="com.chinasofti.rcs:id/textview_file_name" and @text="%s"]' % file_name))
+             '//*[@resource-id="com.cmic.junyuntong:id/textview_file_name" and @text="%s"]' % file_name))
         file_elements[0].click()
         # 点击文件右上方的 ... 图标
         chatWindowPage.click_element(
-            (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/menu"]'))
+            (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/menu"]'))
         chatWindowPage.click_element(
-            (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/forward"  and @text="转发"]'))
+            (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/forward"  and @text="转发"]'))
         # 点击联系人名称
         chatWindowPage.click_element(
             (MobileBy.XPATH,
-             '//*[@resource-id="com.chinasofti.rcs:id/tv_name" and @index="0"]'))
+             '//*[@resource-id="com.cmic.junyuntong:id/tv_name" and @index="0"]'))
         chatWindowPage.click_element((MobileBy.XPATH,
-                                      '//*[@resource-id="com.chinasofti.rcs:id/btn_ok" and @text="确定"]'))
+                                      '//*[@resource-id="com.cmic.junyuntong:id/btn_ok" and @text="确定"]'))
         chatWindowPage.is_toast_exist("已转发")
 
     @TestLogger.log()
@@ -616,7 +616,7 @@ class SingleChatPage(BaseChatPage):
 
     @TestLogger.log()
     def assert_collect_record_file(self):
-        self.click_element((MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/menu"]'))
+        self.click_element((MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/menu"]'))
         self.click_element((MobileBy.XPATH, '//*[@text="收藏"]'))
         if not self.is_toast_exist("已收藏"):
             raise AssertionError("收藏失败")
@@ -625,21 +625,21 @@ class SingleChatPage(BaseChatPage):
     def assert_transmit_record_file(self):
         chatWindowPage = ChatWindowPage()
         chatWindowPage.click_element(
-            (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/menu"]'))
+            (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/menu"]'))
         chatWindowPage.click_element(
-            (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/forward"  and @text="转发"]'))
+            (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/forward"  and @text="转发"]'))
         # 点击联系人名称
         chatWindowPage.click_element(
             (MobileBy.XPATH,
-             '//*[@resource-id="com.chinasofti.rcs:id/tv_name" and @index="0"]'))
+             '//*[@resource-id="com.cmic.junyuntong:id/tv_name" and @index="0"]'))
         chatWindowPage.click_element((MobileBy.XPATH,
-                                      '//*[@resource-id="com.chinasofti.rcs:id/btn_ok" and @text="确定"]'))
+                                      '//*[@resource-id="com.cmic.junyuntong:id/btn_ok" and @text="确定"]'))
         if not self.is_toast_exist("已转发"):
             raise AssertionError("转发失败")
 
     @TestLogger.log()
     def other_app_open_file(self):
-        self.click_element((MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/menu"]'))
+        self.click_element((MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/menu"]'))
         self.click_element((MobileBy.XPATH, '//*[@text="其他应用打开"]'))
         self.click_back_by_android()
 
@@ -654,13 +654,13 @@ class SingleChatPage(BaseChatPage):
     @TestLogger.log()
     def assert_id_menu_more(self):
         time.sleep(4)
-        self.page_should_contain_element((MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/menu"]'))
+        self.page_should_contain_element((MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/menu"]'))
 
     @TestLogger.log('选择文件目录')
     def select_local_file_directory(self, *file_directory_list):
         name_list = list(file_directory_list)
         self.wait_until(
-            condition=lambda d: self._is_element_present((MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/select_picture_custom_toolbar_title_text"]'))
+            condition=lambda d: self._is_element_present((MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/select_picture_custom_toolbar_title_text"]'))
         )
         for cont in self.mobile.list_iterator(self.__locators['文件列表'], self.__locators['文件项']):
             name = cont.find_element(*self.__locators['文件名称项']).text
@@ -679,7 +679,7 @@ class SingleChatPage(BaseChatPage):
         name_list = list(file_list)
         self.wait_until(
             condition=lambda d: self._is_element_present(
-                (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/select_picture_custom_toolbar_title_text"]'))
+                (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/select_picture_custom_toolbar_title_text"]'))
         )
         for cont in self.mobile.list_iterator(self.__locators['文件列表'], self.__locators['文件项']):
             name = cont.find_element(*self.__locators['文件名称项']).text
@@ -698,17 +698,17 @@ class SingleChatPage(BaseChatPage):
         """单聊发送文件"""
         chatWindowPage = ChatWindowPage()
         for i in range(1, 5):
-            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.chinasofti.rcs:id/lv_choose'), 'down', 600)
+            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.cmic.junyuntong:id/lv_choose'), 'down', 600)
         self.select_local_file_directory(path)
         self.click_text_or_description('resource')
         # 文件系统找文件
         time.sleep(2)
         for i in range(1, 5):
-            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.chinasofti.rcs:id/lv_choose'), 'down', 600)
+            chatWindowPage.swipe_by_direction((MobileBy.ID, 'com.cmic.junyuntong:id/lv_choose'), 'down', 600)
         self.select_local_file(file_name)
         # 发送
         chatWindowPage.click_element((MobileBy.XPATH,
-                                      '//*[@resource-id="com.chinasofti.rcs:id/button_send" and @text="发送"]'))
+                                      '//*[@resource-id="com.cmic.junyuntong:id/button_send" and @text="发送"]'))
         time.sleep(1)
 
     @TestLogger.log()

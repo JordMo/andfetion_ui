@@ -10,55 +10,55 @@ class SelectLocalContactsPage(BasePage):
     ACTIVITY = 'com.cmcc.cmrcs.android.ui.activities.ContactsSelectActivity'
 
     __locators = {'': (MobileBy.ID, ''),
-                  '无搜索结果': (MobileBy.ID, 'com.chinasofti.rcs:id/no_contact_text'),
-                  'com.chinasofti.rcs:id/action_bar_root': (MobileBy.ID, 'com.chinasofti.rcs:id/action_bar_root'),
+                  '无搜索结果': (MobileBy.ID, 'com.cmic.junyuntong:id/no_contact_text'),
+                  'com.cmic.junyuntong:id/action_bar_root': (MobileBy.ID, 'com.cmic.junyuntong:id/action_bar_root'),
                   'android:id/content': (MobileBy.ID, 'android:id/content'),
-                  'com.chinasofti.rcs:id/pop_10g_window_drop_view': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/pop_10g_window_drop_view'),
-                  'com.chinasofti.rcs:id/id_toolbar': (MobileBy.ID, 'com.chinasofti.rcs:id/id_toolbar'),
-                  '返回': (MobileBy.ID, 'com.chinasofti.rcs:id/back'),
-                  '选择联系人': (MobileBy.ID, 'com.chinasofti.rcs:id/title'),
-                  '确定': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_sure'),
-                  'com.chinasofti.rcs:id/contentFrame': (MobileBy.ID, 'com.chinasofti.rcs:id/contentFrame'),
-                  'com.chinasofti.rcs:id/top_layout': (MobileBy.ID, 'com.chinasofti.rcs:id/top_layout'),
-                  'com.chinasofti.rcs:id/layout_search': (MobileBy.ID, 'com.chinasofti.rcs:id/layout_search'),
-                  '搜索或输入手机号': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_search_bar'),
-                  'com.chinasofti.rcs:id/bottom_layout': (MobileBy.ID, 'com.chinasofti.rcs:id/bottom_layout'),
-                  'com.chinasofti.rcs:id/contact_selection_list_view': (
-                      MobileBy.ID, 'com.chinasofti.rcs:id/contact_selection_list_view'),
-                  '容器列表': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_list'),
-                  'com.chinasofti.rcs:id/contact_list_item': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_list_item'),
-                  '联系人列表': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_list_item'),
-                  'com.chinasofti.rcs:id/asp_selecttion_contact_content': (
-                      MobileBy.ID, 'com.chinasofti.rcs:id/asp_selecttion_contact_content'),
+                  'com.cmic.junyuntong:id/pop_10g_window_drop_view': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/pop_10g_window_drop_view'),
+                  'com.cmic.junyuntong:id/id_toolbar': (MobileBy.ID, 'com.cmic.junyuntong:id/id_toolbar'),
+                  '返回': (MobileBy.ID, 'com.cmic.junyuntong:id/back'),
+                  '选择联系人': (MobileBy.ID, 'com.cmic.junyuntong:id/title'),
+                  '确定': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_sure'),
+                  'com.cmic.junyuntong:id/contentFrame': (MobileBy.ID, 'com.cmic.junyuntong:id/contentFrame'),
+                  'com.cmic.junyuntong:id/top_layout': (MobileBy.ID, 'com.cmic.junyuntong:id/top_layout'),
+                  'com.cmic.junyuntong:id/layout_search': (MobileBy.ID, 'com.cmic.junyuntong:id/layout_search'),
+                  '搜索或输入手机号': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_search_bar'),
+                  'com.cmic.junyuntong:id/bottom_layout': (MobileBy.ID, 'com.cmic.junyuntong:id/bottom_layout'),
+                  'com.cmic.junyuntong:id/contact_selection_list_view': (
+                      MobileBy.ID, 'com.cmic.junyuntong:id/contact_selection_list_view'),
+                  '容器列表': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_list'),
+                  'com.cmic.junyuntong:id/contact_list_item': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_list_item'),
+                  '联系人列表': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_list_item'),
+                  'com.cmic.junyuntong:id/asp_selecttion_contact_content': (
+                      MobileBy.ID, 'com.cmic.junyuntong:id/asp_selecttion_contact_content'),
                   'D': (MobileBy.ID, ''),
-                  'dx1645': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_name'),
-                  '15338821645': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_number'),
+                  'dx1645': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_name'),
+                  '15338821645': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_number'),
                   'F': (MobileBy.ID, ''),
-                  'frank': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_name'),
-                  '18681151872': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_number'),
+                  'frank': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_name'),
+                  '18681151872': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_number'),
                   'H': (MobileBy.ID, ''),
-                  '和飞信电话': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_name'),
-                  '12560': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_number'),
+                  '和飞信电话': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_name'),
+                  '12560': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_number'),
                   'X': (MobileBy.ID, ''),
-                  'xzq': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_name'),
-                  '13510772034': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_number'),
-                  '联系人名': (MobileBy.ID, 'com.chinasofti.rcs:id/tv_name'),
-                  '电话号码': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_number'),
-                  'com.chinasofti.rcs:id/contact_index_bar_view': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/contact_index_bar_view'),
-                  'com.chinasofti.rcs:id/contact_index_bar_container': (
-                  MobileBy.ID, 'com.chinasofti.rcs:id/contact_index_bar_container'),
+                  'xzq': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_name'),
+                  '13510772034': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_number'),
+                  '联系人名': (MobileBy.ID, 'com.cmic.junyuntong:id/tv_name'),
+                  '电话号码': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_number'),
+                  'com.cmic.junyuntong:id/contact_index_bar_view': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/contact_index_bar_view'),
+                  'com.cmic.junyuntong:id/contact_index_bar_container': (
+                  MobileBy.ID, 'com.cmic.junyuntong:id/contact_index_bar_container'),
                   '右侧字母索引': (MobileBy.XPATH,
-                             '//*[@resource-id="com.chinasofti.rcs:id/contact_index_bar_container"]/android.widget.TextView'),
-                  '左侧字母索引': (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/contact_index"]'),
+                             '//*[@resource-id="com.cmic.junyuntong:id/contact_index_bar_container"]/android.widget.TextView'),
+                  '左侧字母索引': (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/contact_index"]'),
                   # 删除成员
                   '确定删除': (MobileBy.XPATH, '//*[@text="确定"]'),
                   # 分享群二维码 名片时选择联系人后的弹窗页面
-                  '分享名片': (MobileBy.ID, 'com.chinasofti.rcs:id/send_tv'),
+                  '分享名片': (MobileBy.ID, 'com.cmic.junyuntong:id/send_tv'),
                   '确定分享': (MobileBy.XPATH, '//*[@text="确定"]'),
                   '取消分享': (MobileBy.XPATH, '//*[@text="取消"]'),
-                  '发送给:xxx': (MobileBy.ID, 'com.chinasofti.rcs:id/dialog_message'),
+                  '发送给:xxx': (MobileBy.ID, 'com.cmic.junyuntong:id/dialog_message'),
                   # 群主转让
                   '确定转让': (MobileBy.XPATH, '//*[@text="确定"]'),
                   '取消转让': (MobileBy.XPATH, '//*[@text="取消"]'),
@@ -66,14 +66,14 @@ class SelectLocalContactsPage(BasePage):
                   '发送给': (MobileBy.XPATH, "//*[contains(@text, '发送给')]"),
                   '取消转发': (MobileBy.XPATH, "//*[contains(@text, '取消')]"),
                   '确定转发': (MobileBy.XPATH, "//*[contains(@text, '确定')]"),
-                  '被选中的联系人': (MobileBy.ID, 'com.chinasofti.rcs:id/avator'),
-                  '搜索结果展示': (MobileBy.ID, 'com.chinasofti.rcs:id/contact_name'),
-                  '已选联系人名': (MobileBy.ID, 'com.chinasofti.rcs:id/image_text'),
+                  '被选中的联系人': (MobileBy.ID, 'com.cmic.junyuntong:id/avator'),
+                  '搜索结果展示': (MobileBy.ID, 'com.cmic.junyuntong:id/contact_name'),
+                  '已选联系人名': (MobileBy.ID, 'com.cmic.junyuntong:id/image_text'),
                   '搜索结果列表': (MobileBy.XPATH, '//android.support.v7.widget.RecyclerView'),
                   '列表项根节点': (MobileBy.XPATH, '//android.support.v7.widget.RecyclerView/*'),
-                  '联系人头像': (MobileBy.ID, 'com.chinasofti.rcs:id/head_tv'),
+                  '联系人头像': (MobileBy.ID, 'com.cmic.junyuntong:id/head_tv'),
                   '查看更多': (MobileBy.XPATH, '//*[@text ="查看更多"]'),
-                  '关闭返回': (MobileBy.ID, 'com.chinasofti.rcs:id/btn_close_actionbar'),
+                  '关闭返回': (MobileBy.ID, 'com.cmic.junyuntong:id/btn_close_actionbar'),
                   }
 
 
@@ -105,7 +105,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log("根据导航栏的第一个字母定位")
     def choose_index_bar_click_element(self):
         self.click_element(
-            ('xpath','//*[@resource-id="com.chinasofti.rcs:id/contact_index_bar_container"]/android.widget.TextView[1]'))
+            ('xpath','//*[@resource-id="com.cmic.junyuntong:id/contact_index_bar_container"]/android.widget.TextView[1]'))
         elements = self.get_elements(self.__class__.__locators["联系人名"])
         elements[0].click()
 
@@ -166,7 +166,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log()
     def get_phone_numbers(self):
         """获取电话号码"""
-        els = self.get_elements((MobileBy.ID, 'com.chinasofti.rcs:id/contact_number'))
+        els = self.get_elements((MobileBy.ID, 'com.cmic.junyuntong:id/contact_number'))
         phones = []
         if els:
             for el in els:
@@ -214,7 +214,7 @@ class SelectLocalContactsPage(BasePage):
     def contacts_is_selected(self, name):
         """获取联系人的选择状态"""
         selected_els = self.get_elements((MobileBy.XPATH,
-                                          '//*[@text ="%s"]/../android.widget.ImageView[@resource-id="com.chinasofti.rcs:id/contact_icon"]' % name))
+                                          '//*[@text ="%s"]/../android.widget.ImageView[@resource-id="com.cmic.junyuntong:id/contact_icon"]' % name))
         if selected_els:
             return True
         else:
@@ -308,7 +308,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log()
     def selecting_local_contacts_by_name(self, name):
         """根据名字选择一个手机联系人"""
-        locator = (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/tv_name" and @text="%s"]' % name)
+        locator = (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_name" and @text="%s"]' % name)
         max_try = 20
         current = 0
         while current < max_try:
@@ -321,7 +321,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log()
     def selecting_local_contacts_by_number(self, number):
         """根据号码选择一个手机联系人"""
-        locator = (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/contact_number" and @text="%s"]' % number)
+        locator = (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/contact_number" and @text="%s"]' % number)
         max_try = 20
         current = 0
         while current < max_try:
@@ -334,7 +334,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log()
     def is_exists_local_contacts_by_name(self, name):
         """是否存在指定手机联系人"""
-        locator = (MobileBy.XPATH, '//*[@resource-id="com.chinasofti.rcs:id/contact_name" and @text="%s"]' % name)
+        locator = (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/contact_name" and @text="%s"]' % name)
         return self._is_element_present(locator)
 
     @TestLogger.log()
@@ -386,7 +386,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log("点击搜索第一个联系人")
     def click_search_phone_contacts(self):
         self.wait_until(
-            condition=lambda x: self.get_elements(('id', 'com.chinasofti.rcs:id/contact_list_item'))[0],
+            condition=lambda x: self.get_elements(('id', 'com.cmic.junyuntong:id/contact_list_item'))[0],
             auto_accept_permission_alert=False
         ).click()
 
@@ -427,7 +427,7 @@ class SelectLocalContactsPage(BasePage):
     def click_letter_index(self, name):
         """点击字母索引"""
         locator = (MobileBy.XPATH,
-                   '//*[@resource-id="com.chinasofti.rcs:id/contact_index_bar_container"]/android.widget.TextView[@text="%s"]' % name)
+                   '//*[@resource-id="com.cmic.junyuntong:id/contact_index_bar_container"]/android.widget.TextView[@text="%s"]' % name)
         self.click_element(locator)
 
     @TestLogger.log("输入搜索关键字")

@@ -15,7 +15,9 @@ class MessagePage(FooterPage):
     ACTIVITY = 'com.cmic.module_main.ui.activity.HomeActivity'
 
     __locators = {
-        "+号": (MobileBy.ID, 'com.chinasofti.rcs:id/action_add'),
+        "发起聊天": (MobileBy.ID, 'com.cmic.junyuntong:id/action_add'),
+        '军运服务': (
+            MobileBy.XPATH, '//*[@resource-id ="com.cmic.junyuntong:id/tv_category" and @text ="趣味小游戏"]'),
         'com.chinasofti.rcs:id/itemLayout': (MobileBy.ID, 'com.chinasofti.rcs:id/itemLayout'),
         'com.chinasofti.rcs:id/pop_item_layout': (MobileBy.ID, 'com.chinasofti.rcs:id/pop_item_layout'),
         'com.chinasofti.rcs:id/iconIV': (MobileBy.ID, 'com.chinasofti.rcs:id/iconIV'),
@@ -200,7 +202,7 @@ class MessagePage(FooterPage):
             self.wait_until(
                 timeout=15,
                 auto_accept_permission_alert=True,
-                condition=lambda d: self._is_element_present(self.__class__.__locators["+号"])
+                condition=lambda d: self._is_element_present(self.__class__.__locators["发起聊天"])
             )
             return True
         except:
@@ -209,7 +211,7 @@ class MessagePage(FooterPage):
     @TestLogger.log()
     def click_add_icon(self):
         """点击加号图标"""
-        self.click_element(self.__locators['+号'])
+        self.click_element(self.__locators['发起聊天'])
         time.sleep(1)
 
     @TestLogger.log()
@@ -376,7 +378,7 @@ class MessagePage(FooterPage):
             self.wait_until(
                 timeout=timeout,
                 auto_accept_permission_alert=auto_accept_alerts,
-                condition=lambda d: self._is_element_present(self.__class__.__locators["+号"])
+                condition=lambda d: self._is_element_present(self.__class__.__locators["发起聊天"])
             )
         except:
             message = "页面在{}s内，没有加载成功".format(str(timeout))
@@ -419,7 +421,7 @@ class MessagePage(FooterPage):
             self.wait_condition_and_listen_unexpected(
                 timeout=timeout,
                 auto_accept_permission_alert=auto_accept_alerts,
-                condition=lambda d: self._is_element_present(self.__locators["+号"]),
+                condition=lambda d: self._is_element_present(self.__locators["发起聊天"]),
                 unexpected=unexpected
             )
         except TimeoutException:
@@ -683,8 +685,8 @@ class MessagePage(FooterPage):
 
     @TestLogger.log()
     def add_icon_is_enabled(self):
-        """+号图标是否可点击"""
-        return self._is_enabled(self.__class__.__locators["+号"])
+        """发起聊天图标是否可点击"""
+        return self._is_enabled(self.__class__.__locators["发起聊天"])
 
     @TestLogger.log()
     def is_exist_network_anomaly(self):
@@ -750,8 +752,8 @@ class MessagePage(FooterPage):
 
     @TestLogger.log()
     def is_exist_add_icon(self):
-        """是否存在+号图标"""
-        return self._is_element_present(self.__class__.__locators["+号"])
+        """是否存在发起聊天图标"""
+        return self._is_element_present(self.__class__.__locators["发起聊天"])
 
     @TestLogger.log()
     def is_exist_words(self):

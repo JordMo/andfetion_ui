@@ -7,11 +7,11 @@ class FooterPage(BasePage):
     ACTIVITY = 'com.cmcc.cmrcs.android.ui.activities.HomeActivity'
 
     __locators = {
-        '我': (MobileBy.ID, 'com.chinasofti.rcs:id/tvMe'),
-        '消息': (MobileBy.ID, 'com.chinasofti.rcs:id/tvMessage'),
-        '通话': (MobileBy.ID, 'com.chinasofti.rcs:id/tvCall'),
-        '工作台': (MobileBy.ID, 'com.chinasofti.rcs:id/tvCircle'),
-        '通讯录': (MobileBy.ID, 'com.chinasofti.rcs:id/tvContact'),
+        '我': (MobileBy.ID, 'com.cmic.junyuntong:id/tvMe'),
+        '消息': (MobileBy.ID, 'com.cmic.junyuntong:id/tvMessage'),
+        '通话': (MobileBy.ID, 'com.cmic.junyuntong:id/tvCall'),
+        '工作台': (MobileBy.ID, 'com.cmic.junyuntong:id/tvCircle'),
+        '通讯录': (MobileBy.ID, 'com.cmic.junyuntong:id/tvContact'),
     }
 
     @TestLogger.log()
@@ -31,7 +31,7 @@ class FooterPage(BasePage):
 
     @TestLogger.log()
     def open_workbench_page(self):
-        """切换到标签页：工作台"""
+        """切换到标签页：军运服务"""
         self.click_element(self.__locators['工作台'])
 
     @TestLogger.log()

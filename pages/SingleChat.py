@@ -93,6 +93,8 @@ class SingleChatPage(BaseChatPage):
                   '文件项': (MobileBy.ID, "com.cmic.junyuntong:id/rl_sd_file"),
                   '文件名称项': (MobileBy.ID, "com.cmic.junyuntong:id/tv_file_name"),
                   '关闭表情': (MobileBy.ID, "com.cmic.junyuntong:id/ib_expression_keyboard"),
+                  '点击拍照': (MobileBy.ID, "com.cmic.junyuntong:id/record"),
+                  '点击发送': (MobileBy.ID, "com.cmic.junyuntong:id/send"),
                   }
 
     @TestLogger.log()
@@ -117,12 +119,19 @@ class SingleChatPage(BaseChatPage):
     @TestLogger.log()
     def click_sms(self):
         """点击选择短信"""
-        self.click_element(self.__class__.__locators["选择短信"])
+        self.click_element(self.__class__.__locators["选择短信"])\
+
+    @TestLogger.log()
+    def send_photo(self):
+        """选择拍照并发送"""
+        self.click_take_photo()
+        self.click_element(self.__class__.__locators['点击拍照'])
+        self.click_element(self.__class__.__locators['点击发送'])
 
     @TestLogger.log()
     def is_on_this_page(self):
         """当前页面是否在单聊会话页面"""
-        el = self.get_elements(self.__locators['打电话图标'])
+        el = self.get_elements(self.__locators['设置'])
         if len(el) > 0:
             return True
         return False

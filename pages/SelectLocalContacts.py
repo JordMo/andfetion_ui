@@ -308,7 +308,7 @@ class SelectLocalContactsPage(BasePage):
     @TestLogger.log()
     def selecting_local_contacts_by_name(self, name):
         """根据名字选择一个手机联系人"""
-        locator = (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/tv_name" and @text="%s"]' % name)
+        locator = (MobileBy.XPATH, '//*[@resource-id="com.cmic.junyuntong:id/contact_name" and @text="%s"]' % name)
         max_try = 20
         current = 0
         while current < max_try:

@@ -516,7 +516,7 @@ DEVICES_CONFIG_MATES = {
             "udid": "40e6276f",
             "automationName": "UiAutomator2",
             "newCommandTimeout": 600,
-            "appPackage": "com.chinasofti.rcs",
+            "appPackage": "com.cmic.junyuntong",
             # "appActivity": "com.cmcc.cmrcs.android.ui.activities.WelcomeActivity"
             "appActivity": "com.cmic.module_main.ui.activity.WelcomeActivity",
         },

@@ -151,20 +151,6 @@ class MWGServiceTest(TestCase):
         self.assertEqual(True,serp.open_by_name('和生活'))
         serp.click_back_by_android()
 
-    def setUp_test_C014_FWTT(self):
-        """展开"""
-        serp = ServicePage()
-        messp = MessagePage()
-
-        if serp.is_on_this_page():
-            return
-        else:
-            if messp.is_on_this_page():
-                serp.open_workbench_page()
-                return
-            current_mobile().launch_app()
-            Preconditions.make_already_in_message_page()
-
     def test_C014_FWTT(self):
         """飞闻头条"""
         serp = ServicePage()
@@ -208,6 +194,7 @@ class SinglechatTest(TestCase):
         """发送表情"""
         scp = SingleChatPage()
         scp.wait_for_page_load()
+        scp.open_expression()
         scp.select_expression(5)
         scp.close_chat_expression()
         scp.send_message()
@@ -216,6 +203,4 @@ class SinglechatTest(TestCase):
         """发送图片"""
         scp = SingleChatPage()
         scp.wait_for_page_load()
-        scp.click_picture()
-        scp.select_items_by_given_orders(1,2)
-        scp.click_element_('发送')
+        scp.send_photo()

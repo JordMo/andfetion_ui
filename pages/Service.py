@@ -55,8 +55,15 @@ class ServicePage(FooterPage):
     @TestLogger.log('打开应用通过名字')
     def open_by_name(self, name, title=''):
         app_name = (MobileBy.XPATH, '//*[@resource-id ="com.cmic.junyuntong:id/tv_name" and @text ="%s"]' % name)
+        self.swipe_by_percent_on_screen(50, 30, 50, 70, 700)
         if not self._is_element_present(app_name):
             self.click_element(self.__class__.__locators['展开'])
+            current = 0
+            while current < 3:
+                if self._is_element_present(app_name):
+                    break
+                current += 1
+                self.swipe_by_percent_on_screen(50, 70, 50, 30, 700)
         start = datetime.now().timestamp()
         self.click_element(app_name)
 

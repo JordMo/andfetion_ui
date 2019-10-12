@@ -760,8 +760,11 @@ class HTMLTestRunner(Template_mixin):
         ###打印用例执行时间
         time= re.findall(r'(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}.\d{3})',script)
         ##time= re.findall(r'(\d{2}:\d{2}:\d{2}.\d{3})',script)
-
-        runTime = datetime.datetime.strptime(time[-1],"%Y-%m-%dT%H:%M:%S.%f").timestamp() - datetime.datetime.strptime(time[0],"%Y-%m-%dT%H:%M:%S.%f").timestamp()
+        try:
+            runTime = datetime.datetime.strptime(time[-1],"%Y-%m-%dT%H:%M:%S.%f").timestamp() - datetime.datetime.strptime(time[0],"%Y-%m-%dT%H:%M:%S.%f").timestamp()
+        except:
+            runTime=0
+            print("runTime error..")
         print(runTime)
         ####print version
 
